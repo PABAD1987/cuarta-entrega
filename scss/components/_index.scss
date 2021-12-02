@@ -1,0 +1,55 @@
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/mixin";
+@import "../base/operadores";
+
+.parrafo-container {
+    color: $color-principal;
+    text-align: left;
+    text-decoration: underline;
+    font-family: $font-principal;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    .parrafo-index {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+.titulo-index-2 {
+    color: nth($colores, 1);
+    @extend %parrafo;
+    @extend %flex;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.titulo-index-3 {
+    font-family: $font-principal;
+    color: $color-principal;
+    text-align: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+#carouselExampleIndicators {
+    margin: 1.5rem;
+}
+
+.foto-index {
+    width: 25%;
+    height: 25%;
+}
+.d-block {
+    width: 600px;
+    height: 600px;
+}
+

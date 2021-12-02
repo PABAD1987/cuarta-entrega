@@ -1,0 +1,50 @@
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/mixin";
+@import "../base/operadores";
+
+.lista-contacto {
+    color: nth($colores, 3);
+    @extend %flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+
+.titulo-contacto {
+    color: nth($colores, 1);
+    @extend %flex;
+    @extend %parrafo;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.formulario-consulta {
+    @extend %flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: #F2C67B;
+}
+
+.enviar {
+    background-color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #F2C67B;
+    font-family: $font-principal;
+    border: 2px solid black;
+    
+}
+
+.elemento-formulario {
+    background-color: #F2C67B;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-family: $font-principal;
+    border: 2px solid black;
+}

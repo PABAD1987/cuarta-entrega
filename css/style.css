@@ -1,0 +1,386 @@
+@charset "UTF-8";
+.imagen-logo, .formulario-consulta, .titulo-contacto, .lista-contacto, #mini, #bebe, .encabezado, .titulo-index-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-contacto, #mini, #bebe, .encabezado, .titulo-index-2 {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.parrafo-container {
+  color: white;
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.parrafo-container .parrafo-index {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.titulo-index-2 {
+  color: #F2C67B;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.titulo-index-3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
+#carouselExampleIndicators {
+  margin: 1.5rem;
+}
+
+.foto-index {
+  width: 25%;
+  height: 25%;
+}
+
+.d-block {
+  width: 600px;
+  height: 600px;
+}
+
+.imagen-logo, .formulario-consulta, .titulo-contacto, .lista-contacto, #mini, #bebe, .encabezado, .titulo-index-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-contacto, #mini, #bebe, .encabezado, .titulo-index-2 {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.encabezado {
+  color: #F2C67B;
+}
+
+.grid-container {
+  color: #F2C67B;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.grid-container .parrafo-nosotras {
+  color: white;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.grid-item:first-child {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: center;
+}
+
+.grid-item:nth-child(2) {
+  grid-row: 2/4;
+  grid-column: 1/1;
+  text-align: center;
+}
+
+.grid-item:nth-child(3) {
+  grid-row: 1/3;
+  grid-column: 2/4;
+  text-align: center;
+}
+
+.imagen-logo, .formulario-consulta, .titulo-contacto, .lista-contacto, #mini, #bebe, .titulo-index-2, .encabezado {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-contacto, #mini, #bebe, .titulo-index-2, .encabezado {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+#mini, #bebe {
+  color: #F2C67B;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Incorporo animación en imágenes */
+.imagen:hover {
+  transform: scale(1.5);
+  transition-duration: 2s;
+}
+
+.imagen {
+  margin: 1.5rem;
+  width: 180px;
+  height: 180px;
+}
+
+.imagen-logo, .formulario-consulta, .titulo-contacto, .lista-contacto, .titulo-index-2, .encabezado, #mini, #bebe {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-contacto, .titulo-index-2, .encabezado, #mini, #bebe {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.lista-contacto {
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.titulo-contacto {
+  color: #F2C67B;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.formulario-consulta {
+  flex-direction: column;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: #F2C67B;
+}
+
+.enviar {
+  background-color: black;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #F2C67B;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid black;
+}
+
+.elemento-formulario {
+  background-color: #F2C67B;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid black;
+}
+
+.imagen-logo, .titulo-index-2, .encabezado, #mini, #bebe, .lista-contacto, .titulo-contacto, .formulario-consulta {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-index-2, .encabezado, #mini, #bebe, .titulo-contacto {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.titulo-pregunta {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.respuesta-pregunta {
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: left;
+  margin: 1.5rem;
+}
+
+.imagen-logo, .titulo-index-2, .encabezado, #mini, #bebe, .lista-contacto, .titulo-contacto, .formulario-consulta {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-index-2, .encabezado, #mini, #bebe, .titulo-contacto {
+  border: 1xp solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+body {
+  background-color: #F2C67B;
+}
+
+#titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Anidamiento */
+.menu-header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  background-color: black;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+.menu-header .menu {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.footer-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  list-style: none;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.footer-container .menu-footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  text-align: left;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.contacto-whatsapp {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  color: black;
+  /* Incorporo animación en imágenes */
+}
+.contacto-whatsapp:hover {
+  transform: scale(1.5);
+  transition-duration: 2s;
+}
+
+@media screen and (max-width: 762px) {
+  .footer-container {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2C67B;
+    color: black;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    list-style: none;
+  }
+
+  .menu-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .menu-header {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #F2C67B;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .grid-item:first-child {
+    grid-row: 1/1;
+    grid-column: 1/6;
+    text-align: center;
+  }
+
+  .grid-item:nth-child(2) {
+    grid-row: 1/1;
+    grid-column: 7/12;
+    text-align: center;
+  }
+
+  .grid-item:nth-child(3) {
+    grid-row: 2/5;
+    grid-column: 1/13;
+    text-align: center;
+  }
+
+  .grid-container {
+    color: #F2C67B;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .grid-container .parrafo-nosotras {
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

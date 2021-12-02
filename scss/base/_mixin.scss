@@ -1,0 +1,6 @@
+@mixin preguntas ($color, $size, $display, $justify) {
+    color: $color;
+    font-size: $size;
+    display: $display;
+    justify-content: $justify;
+}

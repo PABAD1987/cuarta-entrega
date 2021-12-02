@@ -1,0 +1,15 @@
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/mixin";
+@import "../base/operadores";
+
+.titulo-pregunta {
+    @include preguntas (nth($colores, 4), 1.5rem, flex, center);
+    margin: 1.5rem;
+}
+
+.respuesta-pregunta {
+    @include preguntas (nth($colores, 4), 1rem, flex, left);
+    margin: 1.5rem;
+}
